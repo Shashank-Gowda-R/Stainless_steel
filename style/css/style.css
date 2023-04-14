@@ -33,6 +33,7 @@ header {
     background: transparent;
     padding: 28px 12%;
     transition: all .120s ease;
+    width: fit-content;
 }
 
 .logo {
@@ -270,9 +271,9 @@ footer {
 
 
 .right .content .social,
-.phone span ,
-.email span ,
-.place span  {
+.phone span,
+.email span,
+.place span {
     margin: 20px 0 0 0;
 }
 
@@ -306,13 +307,18 @@ footer {
 
 .phone span a,
 .email span a,
-.place span a{
+.place span a {
     color: #fff;
     font-size: 20px;
     border-radius: 5px;
     height: 30px;
     width: 30px;
     transition: 0.3s;
+}
+
+.google_img {
+    width: fit-content;
+    height: fit-content;
 }
 
 @media (max-width:1280px) {
@@ -366,6 +372,15 @@ footer {
     .navbar.open {
         right: 1%;
     }
+
+    .footer-content {
+        display: block;
+    }
+    .imgSlider{
+        width: 85%;
+        height: 350px;
+    }
+
 }
 
 
