@@ -148,23 +148,32 @@ header {
     margin: 0 auto;
     width: 50%;
     height: 550px;
-    background-image: url("./style/img/1.jpeg");
+    background-image: url("./style/img/1.jpg");
     background-size: 100% 100%;
     box-shadow: rgba(149, 157, 165, 0..2) 0px 8px 24px;
-    animation: changeImage 20s linear infinite;
+    animation: changeImage 35s linear infinite;
 }
 
 @keyframes changeImage {
     0% {
-        background-image: url("/style/img/2.jpeg");
+        background-image: url("/style/img/2.jpg");
     }
 
-    50% {
-        background-image: url("/style/img/1.jpeg");
+    20% {
+        background-image: url("/style/img/6.jpg");
+    }
+    40% {
+        background-image: url("/style/img/7.jpg");
+    }
+    60% {
+        background-image: url("/style/img/3.jpg");
+    }
+    80% {
+        background-image: url("/style/img/4.jpg");
     }
 
     100% {
-        background-image: url("/style/img/4.jpeg");
+        background-image: url("/style/img/5.jpg");
     }
 }
 
