@@ -1396,7 +1396,7 @@ header {
 
 @media (max-width: 1000px) {
     .product_description{
-        margin-top: 10%;
+        margin-top: 12%;
     }
     .card_p {
         flex-direction: column;
