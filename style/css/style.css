@@ -1063,7 +1063,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 860px;
+    width: 960px;
 }
 
 .shoeBackground {
@@ -1192,7 +1192,7 @@ header {
 }
 
 .info {
-    width: 50%;
+    width: 70%;
     background-color: #fff;
     z-index: 1;
     padding: 35px 40px;
