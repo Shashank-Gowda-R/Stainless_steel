@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/pc.css">
     <script src="https://use.fontawesome.com/8cdce62966.js"></script>
 
 
@@ -50,7 +51,8 @@
     <div class="product_description">
         <div class="container_p">
             <div class="card_p">
-                <div class="shoeBackground">
+                <!-- <div class="shoeBackground">
+
                     <div class="gradients">
                         <div class="gradient second" color="blue"></div>
                         <div class="gradient" color="red"></div>
@@ -62,27 +64,90 @@
                     <img src="" alt="" class="logo_p">
                     <a href="#" class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
 
-                    <img src="./style/img/1.png" alt="" class="shoe show " color="blue">
-                    <img src="./style/img/2.jpg" alt="" class="shoe " color="red">
-                    <img src="./style/img/3.jpg" alt="" class="shoe " color="green">
-                    <img src="./style/img/4.jpg" alt="" class="shoe " color="orange">
-                    <img src="./style/img/5.jpg" alt="" class="shoe " color="black">
+                    <img src="./style/img/blue3.jpeg" id="blue" alt="" class="shoe show" color="blue">
+                    <img src="./style/img/2.jpg" id="red" alt="" class="shoe " color="red">
+                    <img src="./style/img/3.jpg" id="green" alt="" class="shoe " color="green">
+                    <img src="./style/img/4.jpg" id="orange" alt="" class="shoe " color="orange">
+                    <img src="./style/img/5.jpg" id="black" alt="" class="shoe " color="black">
 
+                </div> -->
+
+                <div class="product">
+                    <div class="product__images">
+                        <img
+                            src="style/img/sofa/sof1.jpg"
+                            alt="google pixel 6"
+                            class="product__main-image"
+                            id="main-image"
+                        />
+        
+                        <div class="product__slider-wrap">
+                            <div class="product__slider">
+                                <img
+                                    src="style/img/sofa/sof1.jpg"
+                                    alt="google pixel 6"
+                                    class="product__image product__image--active"
+                                />
+                                <img
+                                    src="style/img/sofa/sof2.jpg"
+                                    alt="google pixel 6"
+                                    class="product__image"
+                                />
+                                <img
+                                    src="style/img/sofa/sof3.jpg"
+                                    alt="google pixel 6"
+                                    class="product__image"
+                                />
+                                <img
+                                    src="style/img/sofa/sof4.jpg"
+                                    alt="google pixel 6"
+                                    class="product__image"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="info">
                     <div class="shoeName">
                         <div>
                             <h1 class="big">Sectional sofa</h1>
                             <span class="new">new</span>
                         </div>
-                        <h3 class="small">This is a larger sofa that is made up of multiple sections that can be
-                            arranged in different configurations to fit different spaces.</h3>
+                        <h3 class="small" style="text-align:justify;">This sofa is not only stylish and
+                            comfortable, but it is also functional. It
+                            can seat up to three people comfortably, making it the perfect choice for families or those
+                            who love to entertain. The seat cushions are designed to provide a supportive yet soft
+                            surface to sit on, while the backrest is angled perfectly for optimum comfort and
+                            relaxation.
+                        </h3>
                     </div>
                     <div class="description_p">
                         <h3 class="title_p">Product Info</h3>
-                        <p class="text_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem
-                            Ipsum has been the industry's.</p>
+                        <p class="text_p">
+                            The rich fabric upholstery is available in a range of colors, allowing you to choose the
+                            perfect shade to complement your existing décor or to create a bold statement piece in your
+                            room. Its smooth texture adds an element of luxury to any space, while the subtle details
+                            such as the tufted seat and backrest add an extra touch of elegance.
+                        </p>
+                    </div>
+                    <div class="description_p">
+                        <h3 class="title_p">Product Dimension</h3>
+                        <p class="text_p">
+                            Width:  36 inches (91 cm)<br>
+                            Depth:  36 inches (91 cm)<br>
+                            Height: 36 inches (91 cm)<br>
+                        </p>
+                    </div>
+                    <div class="size-container">
+                        <h3 class="title_p">seater</h3>
+                        <div class="sizes" id="sizes">
+                            <span class="size" id="seat1" onclick="changeImage()">1</span>
+                            <span class="size" id="seat2" onclick="changeImage()">2</span>
+                            <span class="size active_p" id="seat3" onclick="changeImage()">3</span>
+                            <span class="size" id="seat4" onclick="changeImage()">4</span>
+                            <span class="size" id="seat5" onclick="changeImage()">5</span>
+                        </div>
                     </div>
                     <div class="color-container">
                         <h3 class="title_p">Fabric Colors</h3>
@@ -94,6 +159,7 @@
                             <span class="color" primary="#444" color="black"></span>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="size-container">
                         <h3 class="title_p">seater combination</h3>
                         <div class="sizes">
@@ -104,6 +170,9 @@
                             <span class="size">5</span>
                         </div>
                     </div>
+=======
+
+>>>>>>> 27148a55b2198d0922ea3393f7b58c6b354261eb
                     <div class="buy-price">
                         <a href="#" class="buy"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                         <div class="price">
@@ -116,6 +185,8 @@
         </div>
     </div>
     <script type="text/javascript" src="./style/js/script.js"></script>
+
+    <script src="main.js"></script>
 
 </body>
 
