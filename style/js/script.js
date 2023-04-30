@@ -98,7 +98,7 @@ function changeHeight() {
         shoeBg.style.height = `${shoeHeight * 0.9}px`;
     }
     else {
-        shoeBg.style.height = "475px";
+        shoeBg.style.height = `475px`;
     }
 }
 
@@ -118,16 +118,16 @@ function changeImage() {
     if (seat1.classList.contains("active_p")) {
         displayImg.src = "./style/img/blue1.jpg"
     }
-    else if(seat2.classList.contains("active_p")){
+    else if (seat2.classList.contains("active_p")) {
         displayImg.src = "./style/img/blue2.webp"
     }
-    else if(seat3.classList.contains("active_p")){
+    else if (seat3.classList.contains("active_p")) {
         displayImg.src = "./style/img/blue3.jpeg"
     }
-    else if(seat4.classList.contains("active_p")){
+    else if (seat4.classList.contains("active_p")) {
         displayImg.src = "./style/img/blue4.jpeg"
     }
-    else{
+    else {
         displayImg.src = "./style/img/blue5.jpeg"
     }
 
